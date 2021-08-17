@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Background = styled.section`
-background: url('../images/misc/home-bg2.png');
+background: url('./images/misc/home-bg2.png');
 display: flex;
 flex-direction: column;
 background-repeat: no-repeat;
@@ -29,7 +29,7 @@ color: white;
 export const Title = styled.h1`
     font-size: 50px;
     line-height: normal;
-    margin: 20px 0;
+    margin: 0px 0;
     @media (max-width: 600px) {
         font-size: 35px;
         padding: 30px;
@@ -37,14 +37,14 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h2`
-font-size: 18px;
-font-weight: normal;
-line-height: normal;
-margin: 20px 0;
-@media (max-width: 600px) {
     font-size: 18px;
-   padding: 30px;
-}`;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0px 0;
+    @media (max-width: 600px) {
+        font-size: 18px;
+    padding: 30px;
+    }`;
 
 export const Column = styled.div`
     display: flex;
@@ -63,27 +63,27 @@ export const Row = styled.div`
 `;
 
 export const Image = styled.img`
-max-width: 100%;
-height: auto;
-margin-left: auto;
-margin-right: auto;
-width: 30%;
-display: block;
-margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    margin-top: 20px;
 
-@media (max-width: 800px) {
-    display: flex;
-    width: 100%;
-    margin: 0 10px;
-    padding-top: 50px;
-}
+    @media (max-width: 800px) {
+        display: flex;
+        width: 100%;
+        margin: 0 10px;
+        padding-top: 50px;
+    }
 
-@media (max-width: 600px) {
-    display: flex;
-    width: 70%;
-    margin: 0 10px;
-    padding-top: 50px;
-}
+    @media (max-width: 600px) {
+        display: flex;
+        width: 70%;
+        margin: 0 10px;
+        padding-top: 50px;
+    }
 
 
 `;

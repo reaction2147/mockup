@@ -18,9 +18,9 @@ export function FeatureContainer() {
                     </Feature.SubTitle>
               </Feature.Column>
               <Feature.Column>
-              <Feature.Image src='/images/misc/layer.png'></Feature.Image>
-              <Feature.Image src='/images/misc/layer.png'></Feature.Image>
-              <Feature.Image src='/images/misc/layer.png'></Feature.Image>
+              <Feature.Image src='./images/misc/layer.png'></Feature.Image>
+              <Feature.Image src='./images/misc/layer.png'></Feature.Image>
+              <Feature.Image src='./images/misc/layer.png'></Feature.Image>
               </Feature.Column>
           </Feature.Row>
     

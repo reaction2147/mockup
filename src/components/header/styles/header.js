@@ -35,7 +35,6 @@ export const Logo = styled.img`
 
 export const Social = styled.img`
     height: 25px;
-    filter: brightness(0) invert(1);
     width: auto;
 `;
 
@@ -43,7 +42,7 @@ export const Button = styled.button`
     display: block;
     background-color: #dc3c39;
     width: 100px;
-    height: 30px;
+    height: content-fits;
     color: white;
     border: 1px solid white;
     font-size: 12px;

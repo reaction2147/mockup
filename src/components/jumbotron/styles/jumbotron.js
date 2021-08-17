@@ -35,7 +35,7 @@ export const Pane = styled.div`
 `;
 
 export const Container = styled.section`
-    background: url('../images/misc/home-bg.jpg');
+    background: url('./images/misc/home-bg.jpg');
     background-color: rgba(255, 255, 255, 0.5);
 
     @media (max-width: 1000px) {

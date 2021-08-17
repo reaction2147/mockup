@@ -7,10 +7,10 @@ export function HeaderContainer() {
     return (
         <Header>
             <Header.Frame>
-                <Header.Logo to={ROUTES.HOME} src="/images/misc/swarfLogo.png" alt="swarfLogo"/>
+                <Header.Logo to={ROUTES.HOME} src="./images/misc/swarfLogo.png" alt="swarfLogo"/>
                 <Header.Button><p>test</p>
                 </Header.Button>
-                <Header.Social src="/images/twitter.png" />
+                <Header.Social src="./images/misc/twitter.png" />
             </Header.Frame>
             
         </Header>
