@@ -43,7 +43,7 @@ export const Button = styled.button`
     display: block;
     background-color: #dc3c39;
     width: 100px;
-    height: fit-content;
+    height: 30px;
     color: white;
     border: 1px solid white;
     font-size: 12px;

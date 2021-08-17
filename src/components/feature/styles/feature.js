@@ -29,7 +29,7 @@ color: white;
 export const Title = styled.h1`
     font-size: 50px;
     line-height: normal;
-    margin: 0;
+    margin: 20px 0;
     @media (max-width: 600px) {
         font-size: 35px;
         padding: 30px;
@@ -40,7 +40,7 @@ export const SubTitle = styled.h2`
 font-size: 18px;
 font-weight: normal;
 line-height: normal;
-margin: 0;
+margin: 20px 0;
 @media (max-width: 600px) {
     font-size: 18px;
    padding: 30px;
